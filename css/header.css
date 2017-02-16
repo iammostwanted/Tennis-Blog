@@ -1,0 +1,101 @@
+/*THIS IS HEADER PART CSS*/
+@import url(fonts.css);
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header-part{
+	/*background-image: url(../images/Header_texture.jpg);*/	
+	/*height: auto;*/
+	/*position: fixed;
+	*/
+	width: 100%;
+	z-index: 10;
+}
+.head-first-row{
+	/*background-color: #c85a19;*/
+	background-color: #e67e22;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.head-second-row{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #e67e22;
+	width: 100%;	
+}
+#second{
+	margin: 0;
+}
+.change-color{
+	color: white;
+}
+.change-color-active{
+	font-family: lato-regular;
+	text-decoration: none;
+	color: white; 		
+	font-size: 1.5em;
+	border-bottom: 1px solid white;
+}
+.head-icon{
+	width: 5%;
+	height: 5%;
+}
+.topHeading{	
+    font-family: opensans;
+    font-size: 2em;
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+.header-part a {
+	text-decoration: none;
+}
+menu{	
+	text-align: center;
+	display: block;	
+	opacity: 1;
+}
+menu ul{
+	list-style: none;
+	display: inline-block;
+	/*height: 100%;*/
+}
+menu li{
+	display: inline-block;
+	margin-left: 45px;
+	margin-right: 45px;
+	color: #f39c12;
+}
+menu li a{
+	font-size: 1.5em;
+	font-family:  lato-regular;
+	color: #7f8c8d;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-limiting-function: ease-out;
+	transition-delay: initial;	
+	text-decoration: none;			
+	padding: 4px 4px 5px 4px;
+}
+menu li a:not(.active):hover{	
+	text-decoration: none;	
+	padding-bottom: 3px;
+    color:#01b2fe;    
+}
+menu li a.active{	
+	font-family: lato-regular;
+	text-decoration: none;
+	color: #c0392b; 		
+	font-size: 1.5em;
+	border-bottom: 1px solid #c0392b;
+}
+.active{    
+	text-decoration: none;
+	font-style: bold;
+	font-size: 1.7em;
+	color: #d35400; 	
+}
+/*END OF HEADER PART CSS*/

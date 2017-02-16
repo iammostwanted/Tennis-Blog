@@ -1,0 +1,123 @@
+/*
+	------------------------THIS IS FOOTER PART CSS --------------------
+*/
+@import url(fonts.css);
+*{
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	background-color: #f3f3f3;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.special{
+	background-color: #bdc3c7;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.foot{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.social-h{
+	font-family: opensans-semibold;
+	font-size: 18px;
+	color: black;		
+}
+
+.footText{
+	font-family: segoeui;
+	color: black;
+}
+.footText a{
+	text-decoration: none;
+	color: black;	
+}
+.footer-icon{
+	width: 30px;
+	height: 30px;
+}
+.changedPadd{	
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.foot-ul{
+	height: 40px;
+}
+span{
+	padding-right: 10px;
+}
+i{
+	position: relative;
+	font-size: 30px!important;
+	width: 45px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #838b89;
+	color: white;
+	margin: auto;
+}
+i::before{
+	position: absolute;
+	top: 7px;
+	left: 10px;
+}
+.iconPosVk::before{
+	position: absolute;
+	top: 7px;
+	left: 6px;
+}
+.iconPosFa::before{
+	position: absolute;
+	top: 7px;
+	left: 14px;
+}
+.iconSize{
+	font-size: 30px;
+}
+menu .foot-ul{
+	padding-top: 15px;	
+}
+menu .foot-ul li a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+menu .foot-ul li a .iconPosTw{
+	background-color: #01b2fe;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosVk{
+	background-color: #507299;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosFa{
+	background-color: #3b5998;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosIn{
+	background-color: #7a36ad;    
+	border-bottom: none;
+}
+menu .foot-ul li a:hover{
+	border-bottom: none;
+}
+.myList {
+	list-style: none;
+	font-family: segoeui;
+	color: #838b89;	
+}
+.myList li{
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+.myList li a {
+	text-decoration: none;
+	font-family: segoeui;
+	color: #838b89;
+	font-size: 14px;
+}
+
+/*END OF FOOTER PART CSS*/

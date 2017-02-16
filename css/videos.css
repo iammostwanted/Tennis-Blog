@@ -1,0 +1,11 @@
+@import url(fonts.css);
+*{
+	padding: 0;
+	margin: 0;
+}
+.padding{
+	padding-bottom: 30px;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+}

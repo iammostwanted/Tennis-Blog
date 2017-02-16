@@ -1,0 +1,90 @@
+@import url(fonts.css);
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: roboto-regular, Helvetica;
+}
+
+
+
+
+/*THIS IS MAIN PART CSS*/
+.main{
+	/*position: static;
+	padding-top: 50px;	*/
+}
+.image-carousel{
+	width: 1200px;
+	height: 500px;
+}
+.label-caption{
+	font-family: opensans;
+	color: white;
+	
+}
+.main-heading{
+	font-family: roboto-b;
+}
+.country-image{
+	width: 40px;
+	height: 20px;
+}
+.news{
+
+	margin-left: 50px;
+	padding-bottom: 30px;
+	/*border: 1px solid #ecf0f1;
+	border-radius: 10px;*/
+}
+.news-image{
+	border-radius: 10px;
+}
+a.news-label{	
+	font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    color: #384452;
+    text-decoration: none;
+}
+.news-text{
+	font-family: 
+}
+.publisher{
+	font-family: 'Raleway';
+	font-size: 0.7em;
+	color: #95a5a6;	
+}
+
+
+.under-h-text{
+	font-style: 'Raleway';
+	font-size: 0.9em;
+	color: #95a5a6;
+}
+.advert{
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 15px;
+	font-family: segoeuii;
+	text-align: center;	
+}
+.advert a{
+	text-decoration: none;
+	color: #e67e22;
+}
+.image-advert{
+	width: 100%;
+	height: 200px;
+}
+
+#shaker{
+	width:299px; 
+	height:253px; 
+	display:none;
+}
+
+/*END OF MAIN PART CSS*/
